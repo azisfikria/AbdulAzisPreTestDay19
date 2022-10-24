@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ABDUL AZIS/Documents/BootCamp SQA 6/abdulazispretestdaynineteen/src/test/java/jc/abdulazispretestdaynineteen/TestCalculator.java">
+        <classes>
+            <class name="jc.abdulazispretestdaynineteen.TestCalculator">
+                <methods>
+                    <include name="testAdd"/>
+                    <include name="testMultiply"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
